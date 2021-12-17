@@ -1,0 +1,126 @@
+/* Cascating Stylesheet */
+* {
+  margin: 1;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  -webkit-flow-smoothing: antialiased;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to right, #ccc0c0 0%, #f3dddd 100%);
+  background-image: url(images/Solda\ indsutr.png);
+  background-size: 100rem 55rem;
+  padding: 0%;
+}
+
+main {
+  width: 32rem;
+  color: rgb(7, 0, 0);
+  border-radius: 0.8rem;
+  background-position-x: right;
+  padding: 0rem 0rem;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.container {
+  width: 50rem;
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0%;
+}
+h1 {
+  place-items: center;
+  font-size: 2rem;
+  margin-left: 2.2rem;
+  margin-top: 11rem;
+  padding: 0%;
+}
+.menu {
+  list-style: none;
+  padding: 0%;
+  display: flex;
+  gap: 3rem;
+  margin-left: 59.5rem;
+  margin-top: 2rem;
+}
+.footer {
+  list-style: none;
+  padding: 0%;
+  line-height: 2.1rem;
+  margin-left: 3.5rem;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+.informations {
+  color: white;
+  background-color: rgba(83, 0, 0, 0.842);
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  padding: 0%;
+}
+
+.orcamento {
+  color: rgb(255, 255, 255);
+  border-radius: 0.3rem;
+  padding: 0%;
+}
+.imageLogo {
+  margin-left: 10.5rem;
+  width: 12rem;
+  margin-bottom: -10rem;
+  padding: 0%;
+}
+span {
+  margin-left: 2.2rem;
+  line-height: 2rem;
+  margin-top: 30rem;
+  font-size: 0.8rem;
+  padding: 0%;
+}
+h2 {
+  list-style: none;
+  margin-left: 5.2rem;
+  margin-top: 1rem;
+  gap: 3.5rem;
+  padding: 0%;
+}
+
+.imageOrçamento {
+  margin-left: -0.5rem;
+  width: 11rem;
+  margin-top: -1rem;
+}
+
+h3 {
+  margin-top: 4.5rem;
+  margin-left: 10.5rem;
+  padding: 0%;
+}
+
+.imageOrçamento {
+  top: 0;
+  color: white;
+  background-color: rgba(42, 42, 44, 0.842);
+  border-radius: 0.25rem;
+  display: inline-flex;
+  padding: 0 2rem;
+  height: 3.2rem;
+  align-items: center;
+  margin-left: -2rem;
+  transition: 0.3s;
+  text-decoration-line: none;
+}
+
+.imageOrçamento:hover {
+  background-color: rgba(83, 0, 0, 0.842);
+}
